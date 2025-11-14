@@ -1,1 +1,6 @@
 /*  your css code here. If applicable */
+.header{
+	hight:400px;
+	width: 600px;
+	background-color: green;
+}

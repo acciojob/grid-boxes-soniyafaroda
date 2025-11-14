@@ -1,5 +1,7 @@
 /*  your css code here. If applicable */
-
+/* #grid {
+    display: grid;
+}
 .header{
 	height: 100px;
 	width: 100%;
@@ -37,5 +39,62 @@
 	width:100%;
 	background-color: green;
 	margin:3px;
+} */
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    background: white;
+    padding: 10px;
 }
-	
+
+.item {
+    background: green;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+/* Row 1 */
+.i1 {
+    grid-column: span 4; /* full width */
+}
+
+/* Row 2–5 (left tall column) */
+.i2 {
+    grid-row: span 4;
+    grid-column: 1 / 2;
+}
+
+/* Row 2 */
+.i3 {
+    grid-column: 2 / 3;
+}
+.i4 {
+    grid-column: 3 / 5;
+}
+
+/* Row 3 */
+.i5 {
+    grid-column: 2 / 4;
+}
+.i6 {
+    grid-column: 4 / 5;
+}
+
+/* Row 4 */
+.i7 {
+    grid-column: 2 / 3;
+}
+.i8 {
+    grid-column: 3 / 4;
+}
+.i9 {
+    grid-column: 4 / 5;
+}
+
+/* Row 5 */
+.i10 {
+    grid-column: 2 / 5;
+}
+

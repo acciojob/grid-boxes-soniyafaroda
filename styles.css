@@ -1,22 +1,40 @@
 /*  your css code here. If applicable */
 .header{
-	hight:500px;
-	width: 600px;
+	height: 100px;
+	width: 100%;
 	background-color: green;
 	margin-bottom:3px;
 }
+.main-container{
+	display: flex;
+}
 .sidebar{
 	height: 400px;
-	width: 250px;
+	width: 25%;
 	background-color: green;
-}
-.section{
-	background-color: green;
-	margin-left: 5px;
-	width: 600px;
 }
 .container{
+	width:75%;
+}
+.section{
+	height:100px;
 	display: flex;
-	justify-content: center;
+	
+}
+.box-25{
+	width:33%;
+	background-color: green;
+	margin:3px;
+	
+}
+.box-50{
+	width:66%;
+	background-color: green;
+	margin:3px;
+}
+.box-75{
+	width:100%;
+	background-color: green;
+	margin:3px;
 }
 	

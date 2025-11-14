@@ -1,6 +1,22 @@
 /*  your css code here. If applicable */
 .header{
-	hight:400px;
+	hight:500px;
 	width: 600px;
 	background-color: green;
+	margin-bottom:3px;
 }
+.sidebar{
+	height: 400px;
+	width: 250px;
+	background-color: green;
+}
+.section{
+	background-color: green;
+	margin-left: 5px;
+	width: 600px;
+}
+.container{
+	display: flex;
+	justify-content: center;
+}
+	
